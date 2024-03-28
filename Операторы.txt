@@ -1,2 +1,25 @@
-typeof (унарный) - оператор, результатом которого является строковое значяение, соответствующее типузначения
+typeof (унарный) - оператор, результатом которого является строковое значяение, соответствующее типу значения
 
+let a = 10;
+let b = '10';
+let c = true;
+let d = null;
+let e = undefined;
+let f = Symbol();
+let g = [];
+let h = {};
+
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+console.log(typeof d);
+console.log(typeof e);
+console.log(typeof f);
+console.log(typeof g);
+console.log(typeof h);
+
+
+let obj = {
+    name: 'Вася',
+    age: 25
+};
