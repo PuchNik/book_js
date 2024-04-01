@@ -19,7 +19,3 @@ console.log(typeof g);
 console.log(typeof h);
 
 
-let obj = {
-    name: 'Вася',
-    age: 25
-};
